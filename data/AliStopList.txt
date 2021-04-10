@@ -1,4 +1,8 @@
 # From https://raw.githubusercontent.com/Alir3z4/stop-words/master/spanish.txt
+¡
+!
+¿
+?
 a
 al
 algo
