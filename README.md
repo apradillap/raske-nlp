@@ -2,9 +2,21 @@
 
 > Ruby implementation of the Rapid Automatic Spanish Keyword Extraction (RAKE) algorithm
 
+## Getting started
+Add the following line to your Gemfile:
+
+```ruby
+gem 'raske-nlp'
+```
+
+Then run `bundle install`
+
+
 ## Usage
 
 ```ruby
+require 'raske-nlp'
+
 text = "Uno de enero, dos de febrero, tres de marzo, cuatro de abril, cinco de mayo,
         seis de junio siete de julio, ¡SAN FERMÍN! Uno de enero, dos de febrero,
         tres de marzo, cuatro de abril, cinco de mayo, seis de junio siete de julio, ¡SAN FERMÍN!
