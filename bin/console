@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 require "bundler/setup"
-require "rake-nlp"
+require "raske-nlp"
 
 TEXT = <<-EOF.strip
   Compatibility of systems of linear constraints over the set of natural numbers

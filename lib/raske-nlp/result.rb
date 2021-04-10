@@ -1,4 +1,4 @@
-module RakeNLP
+module RaskeNLP
   class Result
     SENTENCE_REGEX = /[\\[\\]\n.!?,;:\t\\-\\"\\(\\)\\\'\u2019\u2013]/
     WORD_REGEX = /[^a-zA-Z0-9_\+\-\/]/

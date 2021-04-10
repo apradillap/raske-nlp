@@ -1,4 +1,4 @@
-module RakeNLP
+module RaskeNLP
   class StopList
     def initialize(words)
       @words = words

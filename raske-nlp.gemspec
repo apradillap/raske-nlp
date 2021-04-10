@@ -1,10 +1,10 @@
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "rake-nlp/version"
+require "raske-nlp/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "rake-nlp"
-  spec.version       = RakeNLP::VERSION
+  spec.name          = "raske-nlp"
+  spec.version       = RaskeNLP::VERSION
   spec.authors       = ["Sam Pohlenz"]
   spec.email         = ["sam@sampohlenz.com"]
 

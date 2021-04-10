@@ -1,8 +1,8 @@
-require "rake-nlp/version"
-require "rake-nlp/stop_list"
-require "rake-nlp/result"
+require "raske-nlp/version"
+require "raske-nlp/stop_list"
+require "raske-nlp/result"
 
-module RakeNLP
+module RaskeNLP
   DEFAULTS = {
     min_phrase_length: 1,
     max_phrase_length: 3,
@@ -12,6 +12,6 @@ module RakeNLP
   }
 
   def self.run(text, options={})
-    RakeNLP::Result.new(text, DEFAULTS.merge(options))
+    RaskeNLP::Result.new(text, DEFAULTS.merge(options))
   end
 end
