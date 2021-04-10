@@ -12,7 +12,7 @@ result = RaskeNLP.run(text, {
   max_phrase_length: 3,
   min_frequency:     1,
   min_score:         1,
-  stop_list:         RaskeNLP::StopList::SMART
+  stop_list:         RaskeNLP::StopList::ISO
 })
 
 result.keywords

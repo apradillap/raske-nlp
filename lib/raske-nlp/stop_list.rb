@@ -16,7 +16,7 @@ module RaskeNLP
       new(File.read(filename).split("\n").reject { |line| line =~ /^#/ })
     end
 
-    SMART = read(File.join(File.dirname(__FILE__), "../../data/SmartStopList.txt"))
-    FOX   = read(File.join(File.dirname(__FILE__), "../../data/FoxStopList.txt"))
+    ISO = read(File.join(File.dirname(__FILE__), "../../data/StopWordsIso.txt"))
+    ALI   = read(File.join(File.dirname(__FILE__), "../../data/AliStopList.txt"))
   end
 end

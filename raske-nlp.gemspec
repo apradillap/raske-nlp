@@ -5,11 +5,11 @@ require "raske-nlp/version"
 Gem::Specification.new do |spec|
   spec.name          = "raske-nlp"
   spec.version       = RaskeNLP::VERSION
-  spec.authors       = ["Sam Pohlenz"]
-  spec.email         = ["sam@sampohlenz.com"]
+  spec.authors       = ["Adrián Pradilla Pórtoles"]
+  spec.email         = ["adrianpradilla@gmail.com"]
 
-  spec.summary       = "Implementation of the Rapid Automatic Keyword Extraction (RAKE) algorithm"
-  spec.description   = "Implementation of the Rapid Automatic Keyword Extraction (RAKE) algorithm"
+  spec.summary       = "Implementation of the Rapid Automatic Spanish Keyword Extraction (RAKE) algorithm"
+  spec.description   = "Implementation of the Rapid Automatic Spanish Keyword Extraction (RAKE) algorithm"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
