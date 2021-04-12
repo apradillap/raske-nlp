@@ -1,6 +1,6 @@
 # raske-nlp
 
-> Ruby implementation of the Rapid Automatic Spanish Keyword Extraction (RAKE) algorithm
+> Ruby implementation of the Rapid Automatic Spanish Keyword Extraction (RASKE) algorithm
 
 ## Getting started
 Add the following line to your Gemfile:
