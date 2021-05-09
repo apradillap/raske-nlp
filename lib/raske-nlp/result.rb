@@ -16,7 +16,7 @@ module RaskeNLP
     def phrases
       @phrases ||= begin
         sentences.map { |sentence|
-          sentence.downcase.split(@stoplist_regex).map(&:strip).select { |phrase| acceptable?(phrase) }
+          sentence.split(@stoplist_regex).map(&:strip).select { |phrase| acceptable?(phrase) }
         }.flatten
       end
     end

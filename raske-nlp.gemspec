@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Adrián Pradilla Pórtoles"]
   spec.email         = ["adrianpradilla@gmail.com"]
 
-  spec.summary       = "Implementation of the Rapid Automatic Spanish Keyword Extraction (RAKE) algorithm"
-  spec.description   = "Implementation of the Rapid Automatic Spanish Keyword Extraction (RAKE) algorithm"
+  spec.summary       = "Implementation of the Rapid Automatic Spanish Keyword Extraction (RASKE) algorithm"
+  spec.description   = "Implementation of the Rapid Automatic Spanish Keyword Extraction (RASKE) algorithm"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
